@@ -23,7 +23,7 @@ ul, ol { list-style: none; }
 
 /** 重置文本格式元素 **/
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; color: #e33333;}
 
 
 /** 重置表单元素 **/
@@ -44,4 +44,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 .ks-clearfloat, .clearfloat {
   *zoom: 1;
+}
+/* 左浮动 */
+.fl {
+    float: left;
+}
+/* 右浮动 */
+.fr {
+    float: right
 }

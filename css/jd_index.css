@@ -1,5 +1,5 @@
-/* 版心 */
-.typepage{
+/* 版心 typepage*/
+.tp{
 	width: 1190px;
 	margin: 0 auto;
 }
@@ -27,4 +27,25 @@
 	text-align: center;
 	line-height: 20px;
 	background: rgba(0, 0, 0, 0.3);
+}
+/* 顶部导航底色 */
+.top_nav_box{
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #ddd;
+}
+/* 顶部导航 地区 */
+.top_nav_box .address{
+	display: block;
+	margin-left: 200px;
+}
+/* 地区图标 */
+.top_nav_box .icon-daohangdizhi{
+	color: #e33333;
+}
+.top_nav a{
+	margin: 0 10px;
+}
+.top_nav i{
+	height: 12px;
+	border-left: 1px solid #ccc; 
 }
