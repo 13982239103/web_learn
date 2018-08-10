@@ -1,0 +1,30 @@
+/* 版心 */
+.typepage{
+	width: 1190px;
+	margin: 0 auto;
+}
+/* 顶部广告通栏 */
+.head_ad_box{
+	height: 80px;
+	background-color: #111;
+}
+/* 顶部广告图片 */
+.head_ad{
+	display: block;
+	height: 80px;
+	background: url('../images/JD/header.jpg') no-repeat;
+	position: relative;
+}
+/* 顶部关闭按钮 */
+.ad_close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	background: rgba(0, 0, 0, 0.3);
+}
