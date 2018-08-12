@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" href="..\css\style.css">
+</head>
+<body>
+	<form>
+		<table border="0" cellpadding="0" cellspacing="0" width="400">
+			<caption><h3>60秒完成注册，幸福一辈子！</h3></caption>
+				<tr>
+					<td>我的性别：</td>
+					<td>
+						<input type="radio" checked="checked" name="sex" value="male">
+						<img src="..\images\sex.jpg" alt="" width="10" height="10">男
+						<input type="radio" name="sex" id="sex1" value="female">
+						<img src="..\images\sex.jpg" alt="" width="10" height="10">女
+					</td>
+				</tr>				
+				<tr>
+					<td>出生日期：</td>
+					<td>
+						<select name="year" id="year">
+							<option value="2010">2010年</option>
+							<option value="2000">2000年</option>
+							<option value="1990">1990年</option>
+							<option value="1980">1980年</option>
+							<option value="1970">1970年</option>
+							<option value="1960">1960年</option>
+						</select>
+						<select name="month" id="menth">
+							<option value="1">1月</option>
+							<option value="2">2月</option>
+							<option value="3">3月</option>
+							<option value="4">4月</option>
+							<option value="5">5月</option>
+							<option value="5">6月</option>
+						</select>
+						<select name="day" id="day">
+							<option value="1">1日</option>
+							<option value="2">2日</option>
+							<option value="3">3日</option>
+							<option value="4">4日</option>
+							<option value="5">5日</option>
+							<option value="6">6日</option>
+						</select>
+					</td>
+				</tr>		
+				<tr>
+					<td>
+						<label for="address">工作地区：</label>
+					</td>
+					<td>
+						<input type="text" maxlength="10" id="address">
+					</td>
+				</tr>
+				<tr>
+					<td>婚姻状况：</td>
+					<td>
+						<input type="checkbox" value="1">未婚
+						<input type="checkbox" value="2">已婚
+						<input type="checkbox" value="3">离异
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="马上注册">
+					</td>
+				</tr>			
+		</table>
+	</form>
+</body>
+</html>

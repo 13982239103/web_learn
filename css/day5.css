@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fafafa;
+}
+li{
+	list-style: none;
+}
+ .clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+ .clearfix {*zoom: 1;}   /* IE6、7 专有 */
+
+/* 导航开始了 */
+.top-box{
+	background-color: #fff;
+	height: 100px;
+}
+.top {
+	width: 1240px;
+	height: 100px;
+	margin: 0 auto;
+	/* background-color: pink; */
+}
+.logo{
+	width: 224px;
+	height: 100px;
+	background: #fff url(../images/day5/logoyy.png) 50% 50% no-repeat;
+	float: left;
+}
+.nav{
+	float: right;
+}
+.nav ul{
+	height: 100px;
+}
+.nav li {
+	float: left;
+	display: block;
+	line-height: 100px;
+	margin: 0 20px;
+}
+.nav a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #333;
+}
+.nav a:hover{
+	color: #2288f6;
+}
+/* 导航结束了 */
+
+/* 广告开始了*/
+.ad-img{
+	height: 622px;
+	background: #fafafa url(../images/day5/ad_01.png) 50% 50% no-repeat;
+	position: relative;
+}
+.ad-img ul{
+	width: 72px;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	margin-left: -36px;
+}
+.ad-img .unchecked{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	float: left;
+	margin: 0px 5px;
+	border: 1px solid #e9f4fb;
+	background-color: #e9f4fb;
+}
+.ad-img li{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	float: left;
+	margin: 0px 5px;
+	border: 1px solid #e9f4fb;
+
+}
+
+/* 广告结束了 */
+
+/* 我们的服务开始了*/
+.our-service-box{
+	/* background-color: pink; */
+}
+.our-service{
+	width: 1240px;
+	margin: 0 auto;
+	padding-top: 64px;
+	position: relative;
+	/* background-color: pink; */
+}
+
+.our-service h4{
+	text-align: center;
+	font-weight: 400;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #666;
+	text-transform: uppercase;/* 字母转大写 */
+}
+.our-service p{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #666;
+	line-height: 25px;
+}
+.our-service-title{
+	width: 1240px;
+	margin-top: 60px;
+}
+.our-service h2{
+	text-align: center;
+	font-size: 24px;	
+}
+/* 横线 */
+.left-line{
+	width: 420px;
+	border-top: 1px solid #ccc;
+	margin: 20px 20px 0px 120px;	
+	position: absolute;
+	left: 0;
+}
+/* 右横线 */
+.right-line{
+	width: 420px;
+	border-top: 1px solid #ccc;
+	margin: 20px 120px 0px 20px;	
+	position: absolute;
+	right: 0;
+}
+
+/* 图片区域 */
+.img-box{
+			/* background-color: pink; */
+			width: 1110px;
+			margin: 50px auto 60px;
+}
+.img-box-one{
+			background-color: #fff;
+			display: block;
+			float: left;
+			margin: 0 24px;
+			border: 1px solid #ccc;
+			width: 318px;
+			height: 508px;
+			position: relative;
+}
+.img-box-one img{
+			margin: 35px;
+}
+.img-box-one h2{
+			text-align: center;
+			font-weight: 400;
+}
+.img-box-one p{
+			margin: 20px 35px;
+			font-size: 12px;
+			line-height: 25px;
+			color: #666;
+}
+.img-box-one a{
+			border: 1px solid #ff9412;
+			width: 150px;
+			height: 40px;
+			display: block;
+			text-align: center;
+			margin: 30px auto;
+			line-height: 40px;
+			border-radius: 5px;
+			font-size: 14px;
+			color: #ff9412;
+			text-decoration: none;
+			position: absolute;
+			top: 412px;
+			left: 50%;
+			margin-left: -75px;
+}
+/* 我们的服务结束了*/
+/* 经典案例开始了 */
+/* 横线 */
+.line{
+	width: 1000px;
+	border-top: 1px solid #ccc;
+	margin: 20px 0 0px -500px;	
+	position: absolute;
+	left: 50%;
+	/* float: left; */
+}
+.classic-case-box h2{
+	font-size: 24px;	
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	left: 50%;
+	margin-left: -66px;
+	padding: 0 20px;
+}
+/* 经典案例结束了 */
