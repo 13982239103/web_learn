@@ -36,24 +36,14 @@
 /* 顶部导航盒子 */
 .top_nav_box{
 	height: 30px;
+	line-height: 30px;
 }
 /* 顶部导航 地区 */
 .top_nav_box .address{
 	display: block;
 	margin-left: 200px;
-	line-height: 30px;
 }
-/* 箭头图标 */
-.top_nav .icon-xiala{
-	position: absolute;
-	top: 2px;
-	right: 0;
-	font-size: 12px;
-}
-/* 导航盒子 */
-.top_nav {
-	line-height: 30px;
-}
+
 /* 按钮颜色 */
 .top_nav li a {
 	color: #999;
@@ -64,24 +54,20 @@
 .top_nav .color_e33333 {
 	color: #e33333;
 }
-/* 我的京东 */
-.top_nav .myjd{
+/* 导航下拉按钮预留空间 */
+.top_nav .dropdown{
 	padding-right: 15px;
 	position: relative;
 }
-/* 企业采购 */
-.top_nav .purchase{
-	padding-right: 15px;
-	position: relative;
-}
-/* 客户服务 */
-.top_nav .service{
-	padding-right: 15px;
-	position: relative;
+/* 下拉按钮图标 */
+.top_nav .xiala{
+	position: absolute;
+	top: 2px;
+	right: 0;
+	font-size: 12px;
 }
 /* 间隔竖线 */
 .top_nav .spacer{
-	width: 0px;
 	height: 12px;
 	border-left: 1px solid #ccc;
 	margin: 10px 15px 0 15px;
